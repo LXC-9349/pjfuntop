@@ -25,8 +25,7 @@ jobs:
      #   run: npm run build
 
       - name: Wait before publishing
-      
-      run: sleep 60  # 等待60秒
+        run: sleep 60  # 等待60秒
         
       - name: Publish to npm
         run: npm run publish
