@@ -19,7 +19,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
           
-      - run: npm rmpj
+      - run: npm unpublish pjfun.top@1.0.0 --force
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
