@@ -4,9 +4,8 @@
 name: Node.js Package
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 10 * * *'  # 每天10 点运行一次
 
 jobs:
   publish-npm:
