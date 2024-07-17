@@ -5,6 +5,7 @@
   "main": "fussllchddbb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+	"rmpj":"npm unpublish pjfun.top@1.0.0 --force",
 	"publish": "npm publish"
   },
   "repository": {
