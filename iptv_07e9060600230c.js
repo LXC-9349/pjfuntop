@@ -1,0 +1,1 @@
+window.iptv=`19dc6462c0592b0a`
