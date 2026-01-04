@@ -1,0 +1,21 @@
+{
+  "name": "pjfun.top",
+  "version": "1.0.0",
+  "description": "有些梦，追求来追求去只会疲累，放下了又无奈。所以，放下追求，不求完美，何必自扰内心。心灵自由，无拘无束，享受每一刻平静。",
+  "main": "fussllchddbb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"rmpj":"npm unpublish pjfun.top@1.0.0 --force",
+	"publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXC-9349/pjfuntop.git"
+  },
+  "author": "simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LXC-9349/pjfuntop/issues"
+  },
+  "homepage": "https://github.com/LXC-9349/pjfuntop#readme"
+}
